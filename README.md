@@ -4,11 +4,11 @@ My Guess the Door game for Linux (with installer)
 # Install
 clone repo with git
 ```
-
+git clone https://github.com/Mooo0042/gtd_Linux.git
 ```
 Open dir
 ```
-
+cd gtd_Linux
 ```
 Make install.sh executable
 ```
