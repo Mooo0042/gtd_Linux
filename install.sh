@@ -16,7 +16,7 @@ mkdir -p "$INSTALL_DIR"
 mkdir -p "$ICON_DIR"
 
 # Kopiere die ausführbare Datei
-cp dist/gtd_test "$INSTALL_DIR/gtd"
+cp dist/gtd "$INSTALL_DIR/gtd"
 cp scores.txt "$INSTALL_DIR/scores.txt"
 
 # Kopiere das Icon
@@ -27,7 +27,7 @@ cat <<EOF > "$DESKTOP_FILE"
 [Desktop Entry]
 Name=Guess the Door
 Exec="$INSTALL_DIR/gtd"
-Icon=gtd_test
+Icon=gtd
 Type=Application
 Categories=Game;
 EOF
@@ -38,4 +38,4 @@ chmod +x "$INSTALL_DIR/gtd"
 # Aktualisiere die Desktop-Datenbank
 update-desktop-database "$HOME/.local/share/applications"
 
-echo "gtd_test wurde erfolgreich installiert!"
+echo "gtd wurde erfolgreich installiert!"
