@@ -19,4 +19,4 @@ Execute install.sh
 ./install.sh
 ```
 # Note
-- If you don't want to install it you can execute the gtd file in /dist
+- If you don't want to install it you can execute the file named gtd in /dist
