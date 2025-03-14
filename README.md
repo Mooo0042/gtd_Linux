@@ -20,3 +20,4 @@ Execute install.sh
 ```
 # Note
 - If you don't want to install it you can execute the file named gtd in /dist
+- GTD is only available in German
